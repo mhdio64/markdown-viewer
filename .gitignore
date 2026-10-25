@@ -1,0 +1,21 @@
+# Review and adapt this file to the project's stack.
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+**/id_rsa
+**/secrets.json
+**/credentials.json
+node_modules/
+dist/
+build/
+.next/
+coverage/
+__pycache__/
+*.sqlite
+*.db
+
+# MCP merge temporary backups (may contain confidential configuration)
+.agents/mcp_config.json.vibe-*.bak
+.gemini/

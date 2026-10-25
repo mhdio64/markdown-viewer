@@ -1,0 +1,1 @@
+{"ready":false,"checks":[{"name":"git-whitespace","argv":["git","diff","--check"]}]}

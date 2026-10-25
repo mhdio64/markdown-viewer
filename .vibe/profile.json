@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "type": "general",
+  "framework": "none",
+  "tracker": "github",
+  "ci": "github",
+  "playwright": false,
+  "chromeDevtools": false,
+  "stitch": false,
+  "terraform": false
+}

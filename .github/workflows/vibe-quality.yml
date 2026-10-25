@@ -1,0 +1,13 @@
+name: Vibe Quality Gate
+on:
+  push:
+  pull_request:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify project checks
+        run: python3 scripts/vibe-verify.py
